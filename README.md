@@ -62,4 +62,4 @@ Note: If your STIGs button on the AppGate SDP is red, sign into Appgate SDP and 
 
 ![AWSwork3](https://github.com/user-attachments/assets/b661a163-6320-4708-94e3-2b46782be981)
 
-Unfortunetely this is where I am stuck at. Whenever I attempt to use the registration code, I get an error telling me that this device is not authorized. I will update this page when I get a fix action.
+Unfortunately this is where I am stuck at. Whenever I attempt to use the registration code, I get an error telling me that this device is not authorized. I will update this page when I get a fix action.
