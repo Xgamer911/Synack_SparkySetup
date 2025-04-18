@@ -19,7 +19,7 @@
 
 ![after profile link](https://github.com/user-attachments/assets/937dea36-a8a5-47da-a35e-ebebc847c63a)
    
-8) click Sign in and a browser should open going to https://auth5.jsf.mil 
+8) Click Sign in and a browser should open going to https://auth5.jsf.mil 
 
 ![Connect](https://github.com/user-attachments/assets/1a4cbbe4-8a8b-41df-8de6-6e2a1933c741)
     
@@ -31,7 +31,7 @@
 
 ![portal](https://github.com/user-attachments/assets/3256a3a9-f0dc-4eae-9cd7-0fcdb58b5733)
 
-Note: If your STIGs button on the AppGate SDP is red, AWS Workspace will give an error that your device is not authorized. Sign into Appgate SDP and let it sit for 30-60 minutes, sign out, and the sign in. It might work then.
+Note: If your STIGs button on the AppGate SDP is red, sign into Appgate SDP and let it sit for 30-60 minutes, sign out, and the sign in. It might work then, if not try troubleshooting steps below.
 
 11) This is what a working AppGate SDP should look like.
 
@@ -42,11 +42,24 @@ Note: If your STIGs button on the AppGate SDP is red, AWS Workspace will give an
 1) Download cnap_pass_cat1_script.ps1
 2) Run Powershell ISE as administrator.
 3) Open cnap_pass_cat1_script.ps1 and run. 
-4) If you get an error stating thatt running scripts is disabled on this system, run the command "Set-ExecutionPolicy Unrestricted". Then Re-run the powershell script.
+4) If you get an error stating that running scripts is disabled on this system, run the command "Set-ExecutionPolicy Unrestricted". Then Re-run the powershell script.
+   
+![Troubleshoot1](https://github.com/user-attachments/assets/3b62dd2c-07d7-42c1-ab93-343bbcb20587)
+
 
 ## Setup AWS Workspaces
 1) Go to https://clients.amazonworkspaces.com, download your operating system application, and install.
 2) On your desktop, double click "Amazon Workspaces" (AWSwork1)
+
+![awswork1](https://github.com/user-attachments/assets/92c7855b-8462-49d3-a395-d982d2d0dc0a)
+
 3) Go to settings and then "Manage Connection Settings".
 4) Set Proxy Setting to "Don't use Proxy Server" and click save. (AWSwork2)
+
+![AWSwork2](https://github.com/user-attachments/assets/e7656e79-987a-4a41-a215-bf12fafb581b)
+
 5) Input registration code from email and then click register. (AWSwork3)
+
+![AWSwork3](https://github.com/user-attachments/assets/b661a163-6320-4708-94e3-2b46782be981)
+
+Unfortunetely this is where I am stuck at. Whenever I attempt to use the registration code, I get an error telling me that this device is not authorized. I will update this page when I get a fix action.
