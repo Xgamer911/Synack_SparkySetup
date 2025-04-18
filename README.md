@@ -10,12 +10,16 @@
 2) Install AppGate
 3) Open AppGate SDP
 4) Click on "Use profile link"
+
+   
    ![1](https://github.com/user-attachments/assets/627f2354-2daf-407b-9092-2a73b8d3d461)
    
 
 6) Get link from an email. Link should look like appgate://URL/STRING 
 7) Click the button to use the appgate link.
 8) Click "Connect to appgate sdp" (after profile link)
+
+   
    ![after profile link](https://github.com/user-attachments/assets/937dea36-a8a5-47da-a35e-ebebc847c63a)
    
 
