@@ -11,22 +11,30 @@
 3) Open AppGate SDP
 4) Click on "Use profile link"
 
-   ![1](https://github.com/user-attachments/assets/627f2354-2daf-407b-9092-2a73b8d3d461)
+![1](https://github.com/user-attachments/assets/627f2354-2daf-407b-9092-2a73b8d3d461)
    
 6) Get link from an email. Link should look like appgate://URL/STRING 
 7) Click the button to use the appgate link.
 8) Click "Connect to appgate sdp" (after profile link)
 
-    ![after profile link](https://github.com/user-attachments/assets/937dea36-a8a5-47da-a35e-ebebc847c63a)
+![after profile link](https://github.com/user-attachments/assets/937dea36-a8a5-47da-a35e-ebebc847c63a)
    
 10) click Sign in and a browser should open going to https://auth5.jsf.mil (connect)
 
-     ![Connect](https://github.com/user-attachments/assets/1a4cbbe4-8a8b-41df-8de6-6e2a1933c741)
+![Connect](https://github.com/user-attachments/assets/1a4cbbe4-8a8b-41df-8de6-6e2a1933c741)
     
 0) Use the username from email (Ex RYAN.BRIGGS.CTR@jre.jsf.mil), a onetime password in another email from onetimesecret.com, and a code from your RSA token. (Login) Note: if you fail, wait for code to reset before trying again. Don't use same RSA code twice.
+
+![login](https://github.com/user-attachments/assets/9eadc41d-1965-45e2-9bf6-00cf4c23de03)
+
 11) This will login the Appgate SDP application. You can then also go to https://auth5.jsf.mil/cfs/Portal and login to the portal website. Here you can see a list of available applications. (Portal)
+
+![portal](https://github.com/user-attachments/assets/3256a3a9-f0dc-4eae-9cd7-0fcdb58b5733)
+
 Note: If your STIGs button on the AppGate SDP is red, AWS Workspace will give an error that your device is not authorized. Sign into Appgate SDP and let it sit for 30-60 minutes, sign out, and the sign in. It might work then.
-12) This is what a working AppGate SDP should look like. (Working1)
+13) This is what a working AppGate SDP should look like. (Working1)
+
+![working1](https://github.com/user-attachments/assets/80914d84-5530-479c-895b-a5bf69b8a9a5)
 
 ### Troubleshooting STIGs staying red
 1) Download cnap_pass_cat1_script.ps1
