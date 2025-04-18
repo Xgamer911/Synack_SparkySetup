@@ -39,7 +39,7 @@ Note: If your STIGs button on the AppGate SDP is red, sign into Appgate SDP and 
 
 
 ### Troubleshooting STIGs staying red
-1) Download cnap_pass_cat1_script.ps1
+1) Download cnap_pass_cat1_script.ps1 from this repo. This was provided by Booz Allen Hamilton support to help with fixing my STIG issue.
 2) Run Powershell ISE as administrator.
 3) Open cnap_pass_cat1_script.ps1 and run. 
 4) If you get an error stating that running scripts is disabled on this system, run the command "Set-ExecutionPolicy Unrestricted". Then Re-run the powershell script.
