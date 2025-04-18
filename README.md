@@ -11,14 +11,17 @@
 3) Open AppGate SDP
 4) Click on "Use profile link"
    ![1](https://github.com/user-attachments/assets/627f2354-2daf-407b-9092-2a73b8d3d461)
+   
 
-5) Get link from an email. Link should look like appgate://URL/STRING 
-6) Click the button to use the appgate link.
-7) Click "Connect to appgate sdp" (after profile link)
+6) Get link from an email. Link should look like appgate://URL/STRING 
+7) Click the button to use the appgate link.
+8) Click "Connect to appgate sdp" (after profile link)
    ![after profile link](https://github.com/user-attachments/assets/937dea36-a8a5-47da-a35e-ebebc847c63a)
+   
 
-9) click Sign in and a browser should open going to https://auth5.jsf.mil (connect)
+10) click Sign in and a browser should open going to https://auth5.jsf.mil (connect)
     ![Connect](https://github.com/user-attachments/assets/1a4cbbe4-8a8b-41df-8de6-6e2a1933c741)
+    
 
 0) Use the username from email (Ex RYAN.BRIGGS.CTR@jre.jsf.mil), a onetime password in another email from onetimesecret.com, and a code from your RSA token. (Login) Note: if you fail, wait for code to reset before trying again. Don't use same RSA code twice.
 11) This will login the Appgate SDP application. You can then also go to https://auth5.jsf.mil/cfs/Portal and login to the portal website. Here you can see a list of available applications. (Portal)
